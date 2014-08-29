@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">加拿大宜家移民</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_for_sale">Product List</string>
+    <string name="action_news">News</string>
+    <string name="action_shopping_cart">Shopping Cart</string>
+    <string name="action_my_account">My Account</string>
+    <string name="action_search">search</string>
+    <string name="about_company">宜家移民总公司设在加拿大温哥华，是全加拿大拥有最多办事处的移民咨询机构。自1988年以来已经为上万的客户办理移民和留学签证，成功率达到99%，拥有超过二十年的历史。宜家移民以其专业诚信的服务、全国统一的合理收费价格得到客户的信任。宜家移民更是加拿大屈指可数的持牌移民机构之一，最近几年宜家移民除了办理很多投资移民、家庭团聚个案之外，也帮助中国各省留学生申请加拿大学生签证。在学生签证方面，我公司提供一条龙服务，包括找学校和申请签证；在家庭团聚方面，公司有丰富的经验为客户办理家庭团聚签证（若别家移民公司办理不成功的案例，宜家移民都可以协助上诉，帮助客人重新获得批准）。BC省温哥华——全世界设施最齐全、风景最美丽、最适宜居住的城市，宜家移民配合BC省最新的企业移民开放政策，帮助客户在六个月内来到BC省创业，创造了来加拿大投资最快捷、最省钱的方法。另外，从2010年暑假开始宜家移民也根据中国和加拿大双方协定的旅游协议推出一系列游学计划。希望广大客户留意我们网站的新闻，希望我们能够做到尽善尽美。</string>
+    
+    <string name="title_activity_search">search</string>
+    <string name="search_hint">Enter a string</string>
+    <string name="button_search">Search</string>
+    
+    <string name="buy">购买</string>
+    <string name="exit_programe">再按一次退出</string>
+
+</resources>
