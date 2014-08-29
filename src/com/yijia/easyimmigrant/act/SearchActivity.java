@@ -12,8 +12,12 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class SearchActivity extends ActionBarActivity {
 	
@@ -25,6 +29,20 @@ public class SearchActivity extends ActionBarActivity {
 		
 		setContentView(R.layout.activity_search);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		
+		EditText editText = (EditText)findViewById(R.id.search_string);
+		
+		final CharSequence searchStr = editText.getText();
+		
+		Button searchBtn = (Button)findViewById(R.id.search_button);
+		
+		searchBtn.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				Toast.makeText(getApplicationContext(),
+					searchStr, Toast.LENGTH_SHORT).show();
+			}
+		});
 	}
 
 	@Override
